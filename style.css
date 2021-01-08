@@ -1,0 +1,97 @@
+                    body {
+                        background-color: rgb(76, 214, 129);
+                    }
+                    
+                    h1 {
+                        color: rgb(177, 24, 24);
+                        font-family: 'Aclonica', sans-serif;
+                        font-weight: bold;
+                        font-size: 50px;
+                        margin: 10px 0 0 32%;
+                    }
+                    
+                    #inputs #mname {
+                        margin: 1% 0 0 35%;
+                        font-size: 30px;
+                        border: 2px solid black;
+                    }
+                    
+                    #inputs #fname {
+                        margin: 4% 0 0 35%;
+                        font-size: 30px;
+                        border: 2px solid black;
+                    }
+                    
+                    h3 {
+                        color: rgb(85, 37, 23);
+                        font-family: 'Chewy', cursive;
+                        font-weight: bold;
+                        font-size: 55px;
+                        margin: 2% 0 0 34%;
+                    }
+                    
+                    .click {
+                        border-radius: 40px;
+                        margin-top: 3%;
+                        margin-left: 37%;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                        background-color: black;
+                    }
+                    
+                    .reset {
+                        border-radius: 40px;
+                        margin-top: 3%;
+                        margin-left: 7%;
+                        padding: 7px 27px;
+                        background-color: black;
+                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                    }
+                    
+                    p {
+                        margin: 80px 0 0 200px;
+                        font-size: 39px;
+                        font-family: 'Luckiest Guy', cursive;
+                        width: 70%;
+                        color: rgb(39, 38, 59);
+                    }
+                    
+                    @media only screen and (max-width:768px) {
+                        h1 {
+                            margin: 10px 0 0 17%;
+                            font-size: 27px;
+                            font-weight: bold;
+                        }
+                        h3 {
+                            margin: 13% 0 0 18%;
+                            font-size: 30px;
+                        }
+                        #inputs #mname {
+                            margin: 20% 0 0 20%;
+                            font-size: 17px;
+                            border: 2px solid black;
+                        }
+                        #inputs #fname {
+                            margin: 16% 0 0 20%;
+                            font-size: 17px;
+                            border: 2px solid black;
+                        }
+                        .click {
+                            margin-top: 17%;
+                            margin-left: 23%;
+                            padding: 7px 4px;
+                            font-size: 14px;
+                        }
+                        .reset {
+                            margin-top: 17%;
+                            margin-left: 7%;
+                            padding: 7px 20px;
+                            font-size: 14px;
+                        }
+                        p {
+                            margin: 40px 0 0 70px;
+                            font-size: 20px;
+                            font-family: 'Luckiest Guy', cursive;
+                            width: 70%;
+                            color: rgb(39, 38, 59);
+                        }
+                    }
